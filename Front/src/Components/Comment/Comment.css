@@ -1,0 +1,41 @@
+.CommentContainer{
+    width: 50%;
+    
+}
+.UserCommentInfo{
+    display: flex;
+    flex-direction: row;
+}
+.UserCommentInfo h4{
+    /* width: 100px; */
+    margin: 0;
+    display: flex;
+    align-items: flex-end;
+    text-align: end;
+    color: #3D1723;
+text-align: center;
+font-family: Rowdies;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 10px;
+}
+.TextCommentContainer{
+    margin-top: 20px;
+
+}
+.TextCommentContainer p{
+    color: #3D1723;
+font-family: Open Sans;
+font-size: 17px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.UserCommentInfo > img{
+    max-width: 50px;
+    border-radius: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}

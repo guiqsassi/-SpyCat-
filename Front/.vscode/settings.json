@@ -1,0 +1,7 @@
+{
+    "emmet.syntaxProfiles": {
+        "html": {
+            "self_closing_tag" : true
+        }
+    }
+}

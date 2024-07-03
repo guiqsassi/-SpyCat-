@@ -1,0 +1,51 @@
+/* .ButtonForms{
+    width: 71%;
+    height: 50px;
+flex-shrink: 0;
+background-color: #3D1723;
+color: white;
+border-radius: 10px;
+max-width: 500px;
+
+
+} */
+.ButtonForms{
+background-color: #3D1723;
+  width: 20%;
+  height: 50px;
+  border: 0px;
+  min-width: 100px;
+  min-height: 50px;
+  border-radius: 10px;
+  color: white;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+  transition: .2s transform ease-in-out;
+  will-change: transform;
+  z-index: 0
+}
+.ButtonForms::after{
+    background-color: #F98AAE;
+    border-radius: 10px;
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(-100%, 0);
+    transform-origin: top left;
+    transition: .2s transform ease-out;
+    will-change: transform;
+    z-index: -1;
+}
+.ButtonForms:hover::after{
+    border-radius: 10px;
+transform: translate(0, 0);
+}
+.ButtonForms:hover{
+color: white;
+will-change: transform;
+}

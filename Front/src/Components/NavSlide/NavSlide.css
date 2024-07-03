@@ -1,0 +1,136 @@
+.navInside{
+    width: 100%;
+    background-color: #FAFAFA;
+    display: flex;
+    height: 6vh;
+    z-index: 2;
+    justify-content: space-between;
+
+}
+.userIcon{
+    border-radius: 100%;
+    width: 14%;
+}
+.slide{
+    width: 12%;
+    height: 93%;
+    min-width: 220px;
+    transition: 0.4s;
+    background-color: #FAFAFA;
+    transform: translateX(10vh);
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+.burguer{
+    cursor: pointer;
+}
+.logoImg{
+    /* min-width: 100px; */
+    width: 60%;
+    cursor: pointer;
+
+}
+.navContainer{
+    width: 100%;
+    height: 6vh;
+
+    position:sticky;
+    top: 0;
+    z-index: 1;
+}
+.navOptions{
+    min-width: 190px;
+    width: 5%;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.userOptions{
+    width: 18%;
+    display: flex;
+    min-width: 300px;
+    align-items: center;
+    justify-content: space-around;
+}
+.localization p{
+    color: #4A2C36;
+font-family: Rowdies;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.localization{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.slide ul li{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5%;
+}
+.navSlide{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5%;
+
+}
+.slide ul li:Hover{
+    background-color: #dddddd;
+    cursor: pointer;
+
+}
+/* nav ul li::before{
+    background-color: #979797;
+    content: "";
+    position: fixed;
+    width: 5px;
+    height: 7%;
+    background-color: black;
+    left: 0;
+} */
+.slide ul li img{
+    margin-left: 10px;
+    max-width: 30px;
+}
+nav {
+    margin-top: 10%;
+}
+.slide ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0;
+    }
+.slide p{
+    color: #4A2C36;
+font-family: Rowdies;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.slide hr{
+    border: solid 2px #4A2C36;
+    margin: 20px;
+    border-radius: 10px;
+}
+@media(max-width: 500px){
+    .localization{
+        display: none;
+    }
+    .userOptions{
+        min-width: 0px;
+    }
+}

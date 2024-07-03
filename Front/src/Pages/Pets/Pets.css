@@ -1,0 +1,378 @@
+.petsSection{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.petInfo{
+    width: 100%;
+    display: flex;
+    height: 90vh;
+}
+.imageSection {
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+
+}
+.images{
+    width: 100%;
+    height: 50%;
+    min-height: 400px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    min-width: 850px;
+}
+.Collunm{
+    width: 20%;
+    max-width: 100px;
+    min-height: 300px;
+    margin-left: 10px;
+    height: 75%;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: black; */
+    display: flex;
+    
+    flex-direction: column;
+}
+.imagesCollums{
+    overflow-x: auto;
+    scroll-behavior: smooth;
+
+}
+.imagesCollums::-webkit-scrollbar{
+    display: none;
+}
+.imageSection .bigImage{
+    width: 54%; 
+     height: 100%; 
+     display: flex; 
+     align-items: flex-end; 
+     justify-content: flex-end;
+     max-width: 500px; 
+     min-width: 500px; 
+    min-height: 300px; 
+
+
+
+}
+.imgCollunmPlus{
+    background-color: black;
+}
+.popup{
+    text-align: center;
+}
+.imageSection .bigImage img{
+    max-height: 300px;
+    min-height: 300px;
+    max-width: 500px;
+    min-width: 500px;
+    object-fit: contain;
+    background-color: rgb(99, 99, 99);
+    
+
+}
+
+.imgCollunmSon{
+    margin-bottom: 10px;
+    max-width: 80%;
+    max-height: 100px;
+    max-width: 100px;
+    background-color: rgb(99, 99, 99);
+
+}
+.petAbout{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.infoBanner{
+
+ width: 60%;
+ /* height: 69%; */
+ min-height: 500px;
+ background-color: #dfdfdf;
+ 
+}
+.campoTexto{
+    width: 80%;
+height: 45px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #FFF;
+margin-bottom: 2%;
+padding: 10px 0 0 10px;
+}
+.campoTextoDescricao{
+    width: 80%;
+    height: 150px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    padding: 10px 0 0 10px;
+
+    margin-bottom: 2%;
+}
+.bannerCotent{
+    padding: 5% 0 0 5%;
+}
+.bannerCotent label{
+    color: #F98AAE;
+font-family: Rowdies;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.petData{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    /* margin-left:250px ; */
+}
+.petData p{
+    color: #F98AAE;
+font-family: Rowdies;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.favoritar img{
+    width: 32px;
+    cursor: pointer;
+}
+.comentarios{
+    /* width: 60%; */
+    min-height: 80vh;
+    padding-left: 10%;
+    margin-top: 5%;
+
+}
+.imgCollunmSon{
+    cursor: pointer;
+    width: 100px;
+    height: 80px;
+    object-fit: cover;
+}
+.tittleComentarios{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+
+}
+.input label{
+    color: #4A2C36;
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.lastMessage h4{
+    color: #4A2C36;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.tittleComentarios h3{
+    color: #F98AAE;
+text-align: center;
+font-family: Rowdies;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+@media(max-height: 800px){
+    .petAbout{
+        height: 120vh;
+    }
+}
+@media (max-width: 1300px) {
+    .imageSection{
+        width: 60%;
+    }
+    .petAbout{
+        width: 40%;
+    }
+    .infoBanner{
+        width: 90%;
+    }
+}
+@media (max-width: 1100px) {
+    .imageSection{
+        width: 70%;
+    }
+    .petAbout{
+        width: 30%;
+    }
+}
+.map{
+    margin-top: 2%;
+    width: 80%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.NewEnconterModal{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    background-color: rgba(0, 0, 0, 0.507);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.NewEnconterModalContainer{
+    width: 80%;
+    height: 80vh;
+    background-color: #FFF;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    border-radius: 20px;
+    position: relative;
+
+}
+.NewEnconterModalContainer, .rescueModalContainer h2{
+    color: #F98AAE;
+    text-align: center;
+    font-family: Rowdies;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+.close{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+}
+.rescueModal{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.507);
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+.rescueModalContainer{
+    position: relative;
+    width: 30%;
+    height: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items:center; 
+        border-radius: 20px;
+
+}
+.RescueModalTittle{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.rescueModalActions{
+    width: 100%;
+    height: 80%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.Comments{
+    margin-top: 10%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+@media(max-Width: 1000px){
+    .petInfo{
+        flex-direction: column;
+        height: auto;
+    }
+    .imageSection{
+        width: 100%;
+        
+    }
+    .images{
+        align-items: center;
+        justify-content: center;
+    }
+    .petData{
+        align-items: center;
+        justify-content: center;
+    }
+    .map{
+        width: 100%;
+    }
+    .petAbout{
+        width: 100%;
+    }
+    .petInfo{
+        gap: 30px;
+    }
+    .rescueModalContainer{
+        width: 80%;
+    }
+}
+@media(max-Width: 1000px){
+    .images{
+        margin-top: 6vh;
+        flex-direction: column;
+        min-width: 0;
+    }
+    .Collunm{
+        display: flex;
+        min-height: 100px;
+        min-width: 50%;
+        max-width: 0;
+        width: auto;
+        flex-direction: row;
+    }
+    .imagesCollums{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        overflow-x:scroll;
+        gap: 10px;
+    }
+  
+}  
+@media(max-Width: 800px){
+    .petInputs{
+  
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+}

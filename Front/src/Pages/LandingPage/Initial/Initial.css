@@ -1,0 +1,113 @@
+.Initial{
+    width: 100%;
+    min-height: 94vh;
+    display: flex;
+    flex-direction: row;
+}
+.MarketingText{
+    width: 56%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.catImage{
+    width: 44%;
+    height: 100vh;
+    background: rgba(255, 178, 203, 0.30);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Textcontent{
+    width: 60%;
+}
+.Textcontent h1{
+    color: #F98AAE;
+font-family: Rowdies;
+font-size: 44px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 0;
+}
+.Textcontent p{
+    color: #4A2C36;
+font-family: Open Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 10px 0 60px 0;
+}
+.buttons button{
+    width: 200px;
+height: 68px;
+flex-shrink: 0;
+border-radius: 40px;
+    margin-right: 50px;
+}
+.buttons button > a {
+text-decoration: none;
+color: #4A2C36;
+
+}
+
+.buttons .about{
+    border: 1px #4A2C36 solid;
+    background-color: white;
+}
+.catImage img{
+    max-width: 500px;
+    max-height: 500px;
+    aspect-ratio: 4/3;
+}
+@media (max-width: 1200px) {
+    .Textcontent p{
+        font-size: 18px;
+
+    }
+    .Textcontent h1{
+        font-size: 38px;
+    }
+    .buttons button{
+        margin-right: 30px;
+    }
+    .catImage img{
+        max-width: 400px;
+
+    }
+    
+}
+@media (max-width: 1400px) {
+    .Textcontent{
+        width: 80%;
+
+    }
+}
+@media (max-width: 1000px) {
+    .Textcontent p{
+        font-size: 18px;
+
+    }
+    .Textcontent h1{
+        font-size: 38px;
+    }
+    .buttons button{
+        margin-right: 10px;
+    }
+}
+@media (max-width: 1000px) {
+    .Textcontent p{
+        font-size: 18px;
+
+    }
+    .Textcontent h1{
+        font-size: 38px;
+    }
+    .buttons button{
+        margin-right: 10px;
+        width: 160px;
+        height: 60px;
+    }
+}

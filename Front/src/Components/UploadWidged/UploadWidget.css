@@ -1,0 +1,56 @@
+.upload{
+    opacity: 0;
+    width: 100%;
+    z-index: 3;
+    height: 100%;
+}
+.upload:hover{
+    cursor: pointer;
+}
+.file{
+    height: 80%;
+    width: 80%;
+    min-height: 200px;
+    max-width: 300px;
+    max-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed #F98AAE;
+    border-radius: 5px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.labelUpload{
+
+ 
+    color: #4A2C36;
+text-align: center;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 131.523%; /* 18.413px */
+}
+.resImg{
+    border: 2px dashed #F98AAE;
+    height: 200px;
+    width: 350px;
+    object-fit: contain;
+    
+}
+.formCenter{
+    z-index: 0;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.addImg{
+    max-width: 40px;
+}
+.loading{
+
+}

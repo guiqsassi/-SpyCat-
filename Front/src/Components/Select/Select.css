@@ -1,0 +1,53 @@
+.campoSelect{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+    width: 50%;
+    max-width: 300px;
+}
+.campoSelect select{
+    width: 100%;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #4A2C36;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 131.523%; /* 24.989px */
+}
+
+.campoSelect > input{
+    width: 100%;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #4A2C36;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 131.523%; /* 24.989px */
+}
+.campoSelect label{
+    color: #4A2C36;
+
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 131.523%; /* 24.989px */
+}

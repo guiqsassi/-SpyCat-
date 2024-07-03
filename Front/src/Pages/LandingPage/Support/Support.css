@@ -1,0 +1,97 @@
+.Support{
+    height: 80vh;
+    width: 100%;
+    background: #FFD8E5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.SupportContainer{
+    background-color: white;
+    width: 70%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+}
+.imagePaper{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+}
+.imagePaper img{
+    width: 400px;
+    height: 400px;
+}
+.imagePaper h2{
+    margin: 0;
+    width: 80%;
+    height: 30%;
+    color: #4A2C36;
+text-align: center;
+font-family: Rowdies;
+font-size: 38px;
+font-style: normal;
+font-weight: 700;
+aspect-ratio: 4/3;
+line-height: normal;
+}
+.Formulario{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.Formulario form{
+    gap: 20%;
+}
+@media (max-height: 900px) {
+    .imagePaper img{
+        width: 400px;
+        height: 400px;
+    }
+    .imagePaper h2{
+        font-size: 38px;
+        height: 20%;
+    }
+    .Support{
+        height: 100vh;
+    }
+}
+@media (max-height: 800px) {
+    .imagePaper img{
+        width: 350px;
+        height: 350px;
+    }
+}
+@media (max-width: 1100px) {
+    .imagePaper img{
+        width: 350px;
+        height: 350px;
+    }
+    .SupportContainer{
+        width: 90%;
+    }
+}
+@media (max-width: 900px) {
+    .imagePaper img{
+        width: 350px;
+        height: 350px;
+    }
+    .SupportContainer{
+        width: 100%;
+    }
+}
+@media (max-width: 700px) {
+    .SupportContainer{
+        width: 100%;
+        flex-direction: column;
+    }
+    .Support{
+        height: 100%;
+    }
+}

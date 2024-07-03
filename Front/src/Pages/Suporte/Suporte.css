@@ -1,0 +1,49 @@
+.Suporte{
+    height: 94vh;
+    width: 100%;
+    background: #F6F6F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 900px) {
+    .imagePaper img{
+        width: 350px;
+        height: 350px;
+    }
+    .SupportContainer{
+        width: 100%;
+    }
+}
+@media (max-width: 700px) {
+    .SupportContainer{
+        width: 100%;
+        flex-direction: column;
+    }
+    .Suporte{
+        height: 100%;
+    }
+    .imagePaper{
+        width: 100%;
+        
+    }
+    .imagePaper > img{
+        display: none;
+    }
+    .imagePaper > h2{
+        margin-top: 10%;
+        aspect-ratio: 10/3;
+        text-align: center;
+        height: auto;
+    }
+    .Formulario{
+        width: 100%;
+        /* text-align: center; */
+        justify-content: center;
+    }
+    .Formulario > form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
