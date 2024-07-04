@@ -19,7 +19,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## 📌 Sobre o projeto
-<img src="https://media.discordapp.net/attachments/857222932363608067/1258200143401062461/image.png?ex=66872db2&is=6685dc32&hm=6709009f29c3574b34875f4c6f4d343ee0041e763b562f7dc1df70a1ded591ad&=&format=webp&quality=lossless&width=550&height=276"/>
+<img src="https://media.discordapp.net/attachments/857222932363608067/1258410860855164988/image.png?ex=6687f1f1&is=6686a071&hm=e3123f9b0f5c6132de17c81517f00ca390946e19956d3aed5063207ac8046852&=&format=webp&quality=lossless&width=1313&height=662"/>
 SpyCat é um sistema inovador que visa ajudar animais de rua por meio do cadastramento colaborativo de informações. Nosso objetivo é conectar voluntários e ONGs para facilitar o resgate e o cuidado desses animais, utilizando um mapa interativo para localizar e atualizar informações sobre eles.
 
 ### 🛠️ Construído com
